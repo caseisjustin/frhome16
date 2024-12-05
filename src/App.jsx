@@ -1,17 +1,15 @@
 import { useState } from 'react'
 import { Routes, Route, Link } from 'react-router-dom'
 import Home from './pages/Home/Home'
-import About from './pages/About/About'
+import Service from './pages/Service/Service'
 
 function App() {
 
 	return (
 		<>
-		<Link to={"/"}>home</Link>
-		<Link to={"/about"}>About</Link>
 			<Routes>
 				<Route path='/' element={<Home/>}/>
-				<Route path='/about' element={<About/>}/>
+				<Route path='/service' element={<Service/>}/>
 			</Routes>
 		</>
 	)

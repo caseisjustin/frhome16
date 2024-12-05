@@ -1,10 +1,10 @@
 import React from "react";
-import HeroImg from "../assets/HeroImg/Image.png"
-import CompanyLogo1 from "../assets/HeroComps/Logo.png"
-import CompanyLogo2 from "../assets/HeroComps/Logo-1.png"
-import CompanyLogo3 from "../assets/HeroComps/Logo-2.png"
-import CompanyLogo4 from "../assets/HeroComps/Logo-3.png"
-import CompanyLogo5 from "../assets/HeroComps/Logo-4.png"
+import HeroImg from "../../assets/HeroImg/Image.png"
+import CompanyLogo1 from "../../assets/HeroComps/Logo.png"
+import CompanyLogo2 from "../../assets/HeroComps/Logo-1.png"
+import CompanyLogo3 from "../../assets/HeroComps/Logo-2.png"
+import CompanyLogo4 from "../../assets/HeroComps/Logo-3.png"
+import CompanyLogo5 from "../../assets/HeroComps/Logo-4.png"
 
 const Hero = () => {
     const comps = [
